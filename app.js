@@ -3,7 +3,7 @@ if (process.env.NODE_ENV !== "production"){
 }
 
  
-const url = process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelp-camp';
+const url = process.env.DB_URL;
 
 const express = require('express');
 const app = express();
